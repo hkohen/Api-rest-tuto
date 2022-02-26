@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.Optional;
 
 public interface BookSevice {
+    
+    String a="test;
 
     public Book insertBook(Book b);
     public Optional<Book> getBook(Long id);
