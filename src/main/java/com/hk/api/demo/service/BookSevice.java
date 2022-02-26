@@ -7,7 +7,8 @@ import java.util.Optional;
 
 public interface BookSevice {
     
-    String a="test;
+    String a="test
+        String b="test2;
 
     public Book insertBook(Book b);
     public Optional<Book> getBook(Long id);
